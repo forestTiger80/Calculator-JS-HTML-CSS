@@ -1,0 +1,101 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image:url('/image/calc.jpg');
+    background-size: cover;
+}
+.title{
+    text-align: center;
+}
+.calculator{
+    position: relative;
+    display: grid;
+    max-width: 600px;
+    height: 300px;
+    margin: 10vh auto 0 auto;
+    box-shadow:0px 0px 43px 12px;
+    
+}
+.display{
+
+    height: 100px;
+    text-align: right;
+    border: 2px;
+    outline: none;
+    padding: 10px 8px;
+    font-size: 25px;
+
+}
+.digits{
+    display: grid;
+    border-bottom:  1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position:relative;
+    left: 22%;
+    bottom: 100%;
+    font-size: large;
+    width: 15px;
+    height: 15px;
+}
+.calculator .digits:hover{
+    background-color: aqua;
+    transition: 0.90 ease-in-out;
+
+}
+
+.calculator >div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.num{
+    border: 0.5px solid #999;
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+    background-color: rgb(9, 21, 178);
+}
+.num:hover{
+    background-color: aqua;
+    color:white;
+    transition: 0.25s ease-in-out;
+}
+.res{
+    border: 0.5px solid #999;
+    background-color: #5555ff;
+    color:white;
+
+}
+
+.clear{
+    border: 0.5px solid #999;
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+}
+.digist .clear:hover{
+    background-color: aqua;
+    
+    transition: 0.90s ease-in-out;
+}
+.func{
+    border: 0.5px solid #999;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(92, 96, 115);
+
+}
+.func:hover{
+    background-color: aqua;
+    transition: 0.25s ease-in-out;
+}
+#clear{
+    background-color: red;
+    color:white;
+
+}
+

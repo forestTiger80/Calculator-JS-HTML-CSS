@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Calculator</title>
+    <div class = "Title">
+        <H1> My first online calculator</H1>
+
+    </div>
+
+    <!-- internal CSS section  -->
+    <style>
+        body{ 
+            background-image: url('/image/bg.jpg');
+            background-size: cover;
+             
+        }
+        .Title{
+            text-align: center;
+
+        }
+    </style>
+    
+    
+   
+</head>
+
+<body>
+
+    
+    
+
+        <label for="digit1">Your first number here </label>
+        <input type="number" placeholder="your number please" id="digit1" /><br>
+
+        <label for="digit2">Your second number here </label>
+        <input type="number" placeholder="your number please" id="digit2"><br>
+
+        <p><strong>please choose the operation</strong>  </p> <br>
+
+        <p> <strong> Click here to ADD</strong> </p><input type="button" value="SUM" onclick="add()"/><br>
+        <p> <strong> Click here to SUBTRACT</strong> </p><input type="button" value="SUBTRACTION" onclick="subtraction()"/><br>
+        <p> <strong> Click here to DIVIDE</strong> </p><input type="button" value="DIVISION" onclick="division()"/><br>
+        <p> <strong> Click here to MULTIPLY</strong> </p><input type="button" value="MULTIPLICATION" onclick="multi()"/><br>
+       
+        
+  
+   
+
+    <script src="/source/index.js">
+
+
+        // function addMetoo() {
+        //     const tall1 = Math.floor(Math.random() * 10);
+        //     const tall2 = Math.floor(Math.random() * 10);
+        //     return tall1 + tall2;
+        // }
+
+        // function add() {
+        //     const a = document.getElementById("digit1").value;
+        //     const b = document.getElementById("digit2").value;
+            
+            
+        //     const result = Number(a)+Number(b);
+
+        //     return document.getElementById('result').innerHTML = result;
+        // }
+
+    </script>
+    
+    <p> The result of current operation is : <br> <p id="result"></p> </p> <br>
+   
+   
+    
+</body>
+</html>
