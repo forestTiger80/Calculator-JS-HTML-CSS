@@ -44,3 +44,4 @@ function rotateMe(){
     document.getElementById("camel1").style.transform="rorate(20deg)";
 
 }
+console.log(this);

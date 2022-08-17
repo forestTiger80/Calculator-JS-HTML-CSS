@@ -14,12 +14,22 @@
     <style>
         body{ 
             background-image: url('/image/bg.jpg');
-            background-size: cover;
-             
+            background-size: cover;      
         }
         .Title{
             text-align: center;
-
+            font-size: 30px;
+        }
+        .buttons{
+            text-align: center;
+            font-size: 25px;
+            color:red;
+        }
+        .result{
+            text-align: center;
+            font-size: 45px;
+            font-style: Monospace;
+            color:rgb(10, 228, 39);
         }
     </style>
     
@@ -29,22 +39,23 @@
 
 <body>
 
-    
-    
-
+    <div class ="buttons">
         <label for="digit1">Your first number here </label>
         <input type="number" placeholder="your number please" id="digit1" /><br>
-
         <label for="digit2">Your second number here </label>
         <input type="number" placeholder="your number please" id="digit2"><br>
+        <p><strong>PLEASE CHOOSE AN OPERATION</strong></p> <br>
 
-        <p><strong>please choose the operation</strong>  </p> <br>
-
+    
         <p> <strong> Click here to ADD</strong> </p><input type="button" value="SUM" onclick="add()"/><br>
         <p> <strong> Click here to SUBTRACT</strong> </p><input type="button" value="SUBTRACTION" onclick="subtraction()"/><br>
         <p> <strong> Click here to DIVIDE</strong> </p><input type="button" value="DIVISION" onclick="division()"/><br>
         <p> <strong> Click here to MULTIPLY</strong> </p><input type="button" value="MULTIPLICATION" onclick="multi()"/><br>
        
+
+    </div>
+    
+
         
   
    
@@ -69,8 +80,12 @@
         // }
 
     </script>
+    <div class = "result" >
+
+        <p> THE RESULT OF CURRENT OPERATION IS:<br> <p id="result"></p> </p> <br>
+
+    </div>
     
-    <p> The result of current operation is : <br> <p id="result"></p> </p> <br>
    
    
     
