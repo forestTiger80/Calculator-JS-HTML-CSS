@@ -1,5 +1,6 @@
  
  let fn, ln,op;
+ console.log(fn);  //spørsmål: undefined? - ikke definert variable.
 
 function add(){
     fn = document.calc.text.value;
