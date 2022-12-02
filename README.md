@@ -24,6 +24,7 @@ De fleste nettapper er skrevet i JavaScript, HTML5 eller Cascading Style Sheets 
 vanligvis disse språkene, som bidrar til å bygge en applikasjonsfrontend. Programmering på serversiden gjøres for å lage skriptene en nettapp vil bruke. 
 Språk som Python, Java og Ruby brukes ofte i programmering på serversiden.
 
+
 https://youtu.be/qt6gSW-uYKI
 
 https://en.wikipedia.org/wiki/Web_application
