@@ -16,7 +16,7 @@ Noen nettapper kan bare nås av en bestemt nettleser, men de fleste er tilgjenge
 Hvordan webapplikasjoner fungerer
 
 Nettapplikasjoner trenger ikke å lastes ned siden de er tilgjengelig via et nettverk. Brukere kan få tilgang til en 
-nettapplikasjon via en nettleser som Google Chrome, Mozilla Firefox eller Safari.For at en nettapp skal fungere, trenger den en 
+nettapplikasjon via en nettleser som Google Chrome, Mozilla Firefox eller Safari. For at en nettapp skal fungere, trenger den en 
 webserver, applikasjonsserver og en database. Webservere administrerer forespørslene som kommer fra en klient, mens applikasjonsserveren 
 fullfører den forespurte oppgaven. En database kan brukes til å lagre all nødvendig informasjon.
 Nettapplikasjoner har vanligvis korte utviklingssykluser og kan lages med små utviklingsteam. 
