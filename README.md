@@ -1,28 +1,16 @@
+
+
 # Calculator-JS-HTML-CSS
 
+Here, you'll find a very simple calculator created with JavaScript, HTML, and CSS. You can use it to get an idea of how to build your first web application. Do you know what a web application means? Please read the description below.
 
-Here you'll see a very simple calculator created with javaScript, HTML and CSS. You can use it to inspire you and to get an idea 
-about how you can build your first web applicaction. Do you know what web application means? Please read the description bellow.
+DEFINITION:
 
+A web application (web app) is an application program stored on an external server and delivered over the Internet through a web browser interface. By definition, web services are web apps, and many, but not all, websites include web apps. Web applications can be designed for a wide range of purposes and can be used by anyone, from an organization to an individual, for various reasons. Common web applications may include webmail, online calculators, or e-commerce stores. Some web apps may only be accessible via a specific web browser, but most are available on any browser.
 
-DEFINISJON:
+How web applications work:
 
-En web application (webapp) er et applikasjonsprogram som lagres på en ekstern server og leveres over 
-Internett gjennom et nettlesergrensesnitt. Netttjenester er nettapper per definisjon, og mange, men ikke alle, nettsteder inneholder nettapper.
-Webapplikasjoner kan utformes for en lang rekke bruksområder og kan brukes av alle; fra en organisasjon til en person av mange årsaker. 
-Vanlige nettapplikasjoner kan inkludere webmail, nettkalkulatorer eller e-handelsbutikker. 
-Noen nettapper kan bare nås av en bestemt nettleser, men de fleste er tilgjengelige uansett nettleser.
-
-Hvordan webapplikasjoner fungerer
-
-Nettapplikasjoner trenger ikke å lastes ned siden de er tilgjengelig via et nettverk. Brukere kan få tilgang til en 
-nettapplikasjon via en nettleser som Google Chrome, Mozilla Firefox eller Safari. For at en nettapp skal fungere, trenger den en 
-webserver, applikasjonsserver og en database. Webservere administrerer forespørslene som kommer fra en klient, mens applikasjonsserveren 
-fullfører den forespurte oppgaven. En database kan brukes til å lagre all nødvendig informasjon.
-Nettapplikasjoner har vanligvis korte utviklingssykluser og kan lages med små utviklingsteam. 
-De fleste nettapper er skrevet i JavaScript, HTML5 eller Cascading Style Sheets (CSS). Programmering på klientsiden bruker 
-vanligvis disse språkene, som bidrar til å bygge en applikasjonsfrontend. Programmering på serversiden gjøres for å lage skriptene en nettapp vil bruke. 
-Språk som Python, Java og Ruby brukes ofte i programmering på serversiden.
+Web applications don't need to be downloaded since they are accessible via a network. Users can access a web application through a web browser like Google Chrome, Mozilla Firefox, or Safari. For a web app to function, it requires a web server, an application server, and a database. Web servers handle requests coming from a client, while the application server executes the requested tasks. A database can be used to store all the necessary information. Web applications typically have short development cycles and can be created with small development teams. Most web apps are written in JavaScript, HTML5, or Cascading Style Sheets (CSS). Client-side programming usually employs these languages to build an application's frontend. Server-side programming is done to create the scripts that a web app will use. Languages like Python, Java, and Ruby are often used in server-side programming.
 
 
 https://youtu.be/qt6gSW-uYKI
